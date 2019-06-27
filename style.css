@@ -61,8 +61,14 @@ a{
 .sa-contact-adress{
 	font-size: 18px;
 }
-.sa-contact-social a{
+
+.sa-contact-social-a img{
 	margin: 0 0 0 5px;
+	transition: 1s;
+}
+.sa-contact-social-a img:hover{
+	transform: scale(1,1) translate(5px,-5px);
+	opacity: 0.7;
 }
 
 .sa-contact-input-button{
